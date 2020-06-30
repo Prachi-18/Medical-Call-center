@@ -1,4 +1,5 @@
-# Medical-Call-centerName: Prachi Modi
+# Medical-Call-center 
+Name: Prachi Modi
 Email: pbmodi@umass.edu
 ID: 31816621
 
@@ -17,14 +18,22 @@ virus_cure.c -The program is medical call center simulation. There are 8 lines, 
 
 Global Variables:
 
-int next_id
-static sem_t connected_lock - Binary semaphore
-static sem_t operators      - Connected semaphore
-static int NUM_OPERATORS    - variable for no. of operators
-static int NUM_LINES        - variable for no. of lines
-static int connected        - Callers that are connected
+1)int next_id
+
+2)static sem_t connected_lock - Binary semaphore
+
+3)static sem_t operators      - Connected semaphore
+
+4)static int NUM_OPERATORS    - variable for no. of operators
+
+5)static int NUM_LINES        - variable for no. of lines
+
+6)static int connected        - Callers that are connected
 
 Functions:
-phonecall -function executed on creation of thread that checks if the line is busy or not
-available- function executed when the caller line is not busy
-lineBusy - recursive function executed when the caller line is busy
+
+1)phonecall -function executed on creation of thread that checks if the line is busy or not
+
+2)available- function executed when the caller line is not busy
+
+3)lineBusy - recursive function executed when the caller line is busy
